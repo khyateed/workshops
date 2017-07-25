@@ -1,28 +1,37 @@
-body{
-	background-color: #F7F3EC;
 
-}
+body {
+    
+    background: linear-gradient(90deg, #CDA34F 30%, #E9E7DA 30%);
+
+}	
 
 h1 {
-	color: #595858;
+	color: #636B46;
 	font-family: 'Gill Sans', Verdana, sans-serif;
 	text-align: center;
 	font-weight: lighter;
 	font-size: 50px;
 	border-bottom-style: solid;
 	border-width: 1px;
-	border-bottom-color: black;
+	border-bottom-color: #636B46;
 	padding-top:5%;
-	
+}
+p {
+	color: #373F27;
+	font-family: 'Gill Sans', Verdana, sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: left;
+	line-height: 10px;
 }
 
 
 #logo {
 	display: block;
-	width: 25%;
+	width: 15%;
 	position: absolute;
-	left: 7%;	
-	top: 40%;
+	left: 10%;	
+	top: 30%;
 }
 #logo:hover {
     -webkit-filter: blur(2px);
@@ -42,83 +51,74 @@ h1 {
 
 .navbar li a {
     display: block;
-    color: black;
+    color: #636B46;
     font-family: 'Gill Sans', Verdana, sans-serif;
     font-weight: lighter;
     text-align: center;
-    padding: 14px ;
     text-decoration: none;
 
 }
 
 li a:hover {
-    color: black;
+    color: #CDA34F;
     font-weight: normal;
 }
 
 a:hover {
-    color: black;
+    color: #CDA34F;
     font-weight: normal;
 }
 
+#panel {
+	background: #CDA34F;
+	position: fixed;
+	top: 0;
+	left: 0%;
+	width: 30%;
+	height: 100%;
+}
+
+
 #contact_info {
-	color: #595858;
+	color: #CDA34F;
 	font-family: 'Gill Sans', Verdana, sans-serif;
 	position: fixed;
 	font-size: 13px;
 	font-weight: lighter;
 	top: 95.5%;
-	left: 2%;
+	right: 2%;
 }		
 #button{
     display: block;
-    color: black;
+    color: #CDA34F;
     font-family: 'Gill Sans', sans-serif;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     font-weight: normal;
 }
+
 
 .body {
 	
 	position: absolute;
 	display: block;
-	top: 45%;
+	top: 40%;
 	left: 30%;
 	padding-left: 80px;
-	padding-right: 100px;
-	line-height: 35px;
-}
-
-p {
-	color: #595858;
-	font-family: 'Gill Sans', Verdana, sans-serif;
-	font-size: 20px;
-	font-weight: lighter;
-	text-align: center;
-	line-height: 10px;
-}
-
- #workshop_list{
- 	top: 30%;
- 	right:45%;
-	text-align: left;
-	position: absolute;
+	padding-right: 300px;
+	line-height: 25px;
 	list-style-type: none;
-
-	
- }
- #workshop_list a{
+}
+.body a{
  	
- 	color: #595858;
+ 	color: #636B46;
 	font-family: 'Gill Sans', Verdana, sans-serif;
 	font-size: 20px;
 	font-weight: lighter;
 
  }
-#workshop_list a:hover {
-    color: black;
+.body a:hover {
+    color: #CDA34F;
     font-weight: normal;
 }
 
