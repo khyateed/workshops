@@ -28,9 +28,9 @@ p {
 
 #logo {
 	display: block;
-	width: 15%;
+	width: 20%;
 	position: absolute;
-	left: 10%;	
+	left: 5%;	
 	top: 30%;
 }
 #logo:hover {
